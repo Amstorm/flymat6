@@ -43,11 +43,20 @@ export default function NavBar({ isSignedIn }: { isSignedIn: boolean }) {
   const defaultRoutes = [
     {
       href: "/",
-      label: "Home",
+      label: "Sākums",
+    },
+    {
+      href: "/projekti",
+      label: "Projekti",
+    },
+    {
+      href: "/projektia",
+      label: "Individuālie Projekti",
+      loggedIn: true,
     },
     {
       href: "/add",
-      label: "Add Title",
+      label: "Pievienot postu",
       loggedIn: true,
     },
   ];
@@ -77,7 +86,7 @@ export default function NavBar({ isSignedIn }: { isSignedIn: boolean }) {
           className="mr-4"
           onClick={signOutSignIn}
         >
-          {authCheck ? "Sign Out" : "Sign In"}
+          {authCheck ? "Iziet" : "Ienākt"}
         </Button>
       </Flex>
       <Divider size="small"></Divider>
