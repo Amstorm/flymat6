@@ -53,7 +53,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            skatos šeit about Next.js features and API.
           </p>
         </a>
 
@@ -70,7 +70,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+            Learn about Next.js dažādos veidos with&nbsp;quizzes!
           </p>
         </a>
 
