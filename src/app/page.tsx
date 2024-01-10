@@ -104,7 +104,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            komentārs githubuam to a shareable URL with Vercel.
+            komentārs githubuam to a ar piapildinājumu URL with Vercel.
           </p>
         </a>
       </div>
